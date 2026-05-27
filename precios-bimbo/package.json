@@ -1,0 +1,17 @@
+{
+  "name": "precios-bimbo",
+  "version": "1.0.0",
+  "description": "Monitor de precios Grupo Bimbo en supermercados Uruguay",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scraper.js",
+    "dev": "npx serve public -p 3000"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "notes": {
+    "supers": ["tata", "disco", "tiendainglesa", "eldorado"],
+    "brands": ["bimbo", "artesano", "vital", "rapiditas", "los sorchantes", "takis", "merienda hit", "salmas", "maestro cubano", "nutrabien", "tia rosa"]
+  }
+}
